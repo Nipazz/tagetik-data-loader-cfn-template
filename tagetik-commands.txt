@@ -1,0 +1,5 @@
+/TagetikDataLoader/dev/apache-karaf/bin/karaf
+wrapper:install - name "TDL" - display "TDL" - description "TDL"
+logout
+systemctl enable /TagetikDataLoader/dev/apache-karaf/bin/TDL.service
+systemctl start TDL
